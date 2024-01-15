@@ -1,3 +1,7 @@
 body{
     font-family: 'Mulish', sans-serif;
+    width: 1440px;
+    height: 6940px;
+    border: 2px solid red; /* Delete after completion*/
+    background: #FFF;
 }
