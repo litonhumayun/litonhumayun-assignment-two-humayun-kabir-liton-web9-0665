@@ -70,6 +70,9 @@ main{
     width: 1170px;
     margin: auto;
 }
+section{
+    margin-top: 30px;
+}
 .logo-text-header{
     font-size: 36px;
     font-style: normal;
@@ -169,53 +172,56 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
 
 
 
-
+/* Popularity Section Style*/
 .popularity{
     display: flex;
 }
+.popularity-text{
+    width: 577px;
+    height: 466px;
+    flex-shrink: 0;
+}
 
 
-
-
+/*Destination section style*/
 .destination{
-text-align: center;
+    width: 1170px;
+    
+}
+.destination-text{
+    width: 643px;
+    height: 126px;
+    flex-shrink: 0;
+    text-align: center;
+    margin-left: 25%;
 }
 .places{
     display: flex;
     flex-direction: column;
+    gap: 24px 24px;
 }
-.maldives{
-    background-image: url(images/Rectangle\ 5.png);
-    background-size: cover;
-
-}
-.indonesia{
-    background-image: url(images/Rectangle\ 8.png);
-    background-size: contain;
-}
-.sri-lanka{
-    background-image: url(images/Rectangle\ 6.png);
-}
-.north-america{
-    background-image: url(images/Rectangle\ 7.png);
-}
-.kashmir{
-    background-image: url(images/Rectangle\ 9.png);
-}
-.bangladesh{
-    background-image: url(images/Rectangle\ 11.png);
-}
-.bandarban{
-    background-image: url(images/Rectangle\ 10.png);
-}
+.countries {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 .mi{
     display: flex;
+    gap: 24px 24px;
 }
 .snk{
     display: flex;
+    gap: 24px 24px;
 }
 .bb{
     display: flex;
+    gap: 24px 24px;
 }
 
 
@@ -226,32 +232,45 @@ text-align: center;
 
 /*Reason Section */
 .reason{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-
+.reason-text{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
 .box{
     width: 573px;
     height: 284px;
     flex-shrink: 0;
     border-radius: 16px;
-    text-align: left;
 }
 .one{
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
 .two{
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
 .three{
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+}
+.center{
+    align-self: center;
+    width: 100%; 
 }
 .reason-parent{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -265,12 +284,44 @@ background: rgba(233, 68, 68, 0.05);
 
 
 
-
+/*Deals Text*/
 
 .deals{
-    border: 3px solid rgb(11, 22, 170);
+    
 }
+.dealings{
+    width: 579px;
+    height: 389px;
+    display: flex;
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+}
+.common{
 
+}
+.bg-one{
+    background-image: url(images/Group\ 39.png);
+    background-repeat: no-repeat;
+}
+.bg-two{
+    background-image: url(images/Group\ 40.png);
+    background-repeat: no-repeat;
+}
+.bg-three{
+    background-image: url(images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deals-para{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
 
 
 
