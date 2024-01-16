@@ -7,11 +7,39 @@ body{
 p{
     color: rgba(19, 19, 24, 0.70);
 }
+h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+h3{
+    color: #131318;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+h4{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 .p2{
     color: #5A5A5D;
 }
 .white-color{
     color: #FFF;
+}
+input{
+    width: 174px;
+    height: 45px;
 }
 .btn-one{
     width: 174px;
@@ -80,7 +108,12 @@ header{
     gap: 44px;
 }
 .dark-two{
-
+color: #424247;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .home-color{
     background-color: #FF5400;
@@ -193,15 +226,76 @@ text-align: center;
 
 /*Reason Section */
 .reason{
-    border: 3px solid rgb(8, 8, 8);
+    
 }
+
+
+.box{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    text-align: left;
+}
+.one{
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.two{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.three{
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.reason-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.reason-icon{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
 .deals{
     border: 3px solid rgb(11, 22, 170);
 }
+
+
+
+
+
+
+/*Perfect Place Section*/
 .perfect-place{
     display: flex;
-    border: 3px solid rgb(199, 235, 0);
+    justify-content: center;
+    align-items: center;
 }
+.perfect-place-text{
+    text-align: left
+
+}
+video{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+}
+
+
+
+
+
 .newsletter{
     display: flex;
     border: 3px solid rebeccapurple;
