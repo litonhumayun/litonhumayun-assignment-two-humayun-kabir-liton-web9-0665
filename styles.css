@@ -5,3 +5,15 @@ body{
     border: 2px solid red; /* Delete after completion*/
     background: #FFF;
 }
+main{
+    width: 1170px;
+    border: 3px solid seagreen; /* delete after completion*/
+    margin: auto;
+}
+.banner{
+height: 500px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+            url(images/Group\ 13.png) no-repeat center center / cover;
+}
