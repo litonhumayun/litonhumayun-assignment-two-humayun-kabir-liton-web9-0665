@@ -2,28 +2,196 @@ body{
     font-family: 'Mulish', sans-serif;
     width: 1440px;
     height: 6940px;
-    border: 2px solid red; /* Delete after completion*/
     background: #FFF;
+}
+p{
+    color: rgba(19, 19, 24, 0.70);
+}
+.p2{
+    color: #5A5A5D;
+}
+.white-color{
+    color: #FFF;
+}
+.btn-one{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+.booking-btn{
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+.packages-btn{
+    width: 210px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+.travel-btn{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
 }
 main{
     width: 1170px;
-    border: 3px solid seagreen; /* delete after completion*/
     margin: auto;
 }
+.logo-text-header{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.logo-text-footer{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+header{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.site-name{
+    display: flex;
+    text-align: center;
+}
+.nav-first{
+    display: flex;
+}
+.nav-second{
+    width: 506px;
+    height: 43px;
+    flex-shrink: 0;
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.dark-two{
+
+}
+.home-color{
+    background-color: #FF5400;
+}
+.home{
+    color: #FF5400;
+}
+
+
+/*Banner Style*/
 .banner{
 height: 500px;
-border: 3px solid brown;/* delete after completion*/
-flex-shrink: 0;
 border-radius: 16px;
 background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
             url(images/Group\ 13.png) no-repeat center center / cover;
 }
+.banner-header{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-inside{
+    width: 800px;
+    height: 288px;
+    flex-shrink: 0;
+    padding: 106px 185px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    width: 676px;
+}
+.banner-para{
+    width: 676px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.banner-form{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+
+
+
+
 .popularity{
-    border: 3px solid chartreuse;/* delete after completion*/
+    display: flex;
 }
+
+
+
+
 .destination{
-    border: 3px solid gold;
+text-align: center;
 }
+.places{
+    display: flex;
+    flex-direction: column;
+}
+.maldives{
+    background-image: url(images/Rectangle\ 5.png);
+    background-size: cover;
+
+}
+.indonesia{
+    background-image: url(images/Rectangle\ 8.png);
+    background-size: contain;
+}
+.sri-lanka{
+    background-image: url(images/Rectangle\ 6.png);
+}
+.north-america{
+    background-image: url(images/Rectangle\ 7.png);
+}
+.kashmir{
+    background-image: url(images/Rectangle\ 9.png);
+}
+.bangladesh{
+    background-image: url(images/Rectangle\ 11.png);
+}
+.bandarban{
+    background-image: url(images/Rectangle\ 10.png);
+}
+.mi{
+    display: flex;
+}
+.snk{
+    display: flex;
+}
+.bb{
+    display: flex;
+}
+
+
+
+
+
+
+
+/*Reason Section */
 .reason{
     border: 3px solid rgb(8, 8, 8);
 }
@@ -31,15 +199,25 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     border: 3px solid rgb(11, 22, 170);
 }
 .perfect-place{
+    display: flex;
     border: 3px solid rgb(199, 235, 0);
 }
 .newsletter{
+    display: flex;
     border: 3px solid rebeccapurple;
 }
 .unique-section{
     border: 3px solid rgb(63, 0, 180);
 }
 footer{
-    width: 502px;
-    border: 3px red;/*delete it*/
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo{
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
 }
