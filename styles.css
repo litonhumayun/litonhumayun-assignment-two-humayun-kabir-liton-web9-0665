@@ -439,20 +439,18 @@ video{
 }
 
 
-.unique-section{
-    border: 3px solid rgb(63, 0, 180);
-}
 footer{
-    width: 1440px;
-    height: 502px;
-    flex-shrink: 0;
+    width: 100%;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
+    box-sizing: border-box;
+    padding: 20px;
 }
 .footer-logo{
-    width: 40px;
-    height: 46.673px;
-    flex-shrink: 0;
+    max-width: 100%;
+}
+.footer-logo-mobile {
+    max-width: 100%;
 }
 .social-icons{
     display: flex;
@@ -468,85 +466,297 @@ footer{
 
 /* Responsive Styles for Devices 600px and Below */
 @media only screen and (max-width: 600px) {
-    body {
+
+body{
         width: 100%;
+        overflow: auto;
+    }
+    input{
+        width: 100%;
+        height: 45px;
+    }
+    .btn-one{
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+    }
+    .booking-btn{
+        width: 150px;
+        height: 52px;
+        border-radius: 8px;
+    }
+    .packages-btn{
+        width: 210px;
+        height: 52px;
+        border-radius: 8px;
     }
 
-    main {
+    main{
         width: 100%;
+        margin: auto;
         padding: 10px;
     }
-
-    .banner-inside {
-        padding: 10px;
+    section{
+        margin-top: 30px;
     }
-
-    .banner-text, .banner-para, .banner-form {
+    .logo-text-header{
+        font-size: 18px;
+    }
+    .logo-text-footer{
+        font-size: 18px;
+    }
+    header{
         width: 100%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
     }
-
-    .nav-second {
-        flex-direction: column;
+    .site-name{
+        display: flex;
+        text-align: left;
+    }
+    .nav-first{
+        display: flex;
+    }
+    .nav-second{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0px;
+        justify-content: center;
         align-items: center;
         gap: 10px;
     }
-
-    .dark-two {
-        margin-bottom: 10px;
+    
+    .banner{
+    height: auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+                url(images/Group\ 13.png) no-repeat center center / cover;
     }
-
-    .popularity-text, .destination-text, .reason-text, .perfect-place-text {
+    .banner-inside{
         width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .places, .mi, .snk, .bb {
+
+
+    .banner-text{
+        width: 100%;;
+    }
+    .banner-para{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-form{
+        width: 80%;;
+        display: flex;
+        flex-direction: column;
+        padding: 7px;
+        justify-content: center;
+        align-items: center
+    }
+    
+    .popularity{
+        width: auto;
+        display: flex;
         flex-direction: column;
     }
-
-    .reason-parent {
+    .popularity-text{
+        width: 100%;
+        height: auto;
+    }
+    .popularity-image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .destination{
+        width: 100%;
+        
+    }
+    .destination-text{
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .places{
+        display: flex;
+        flex-direction: column;
+        gap: 10px 10px;
+    }
+    .countries {
+            position: relative;
+            text-align: center;
+          }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .mi{
+        display: flex;
+        flex-direction: column;
+        gap: 10px 10px;
+    }
+    .snk{
+        display: flex;
+        flex-direction: column;
+        gap: 10px 10px;
+    }
+    .bb{
+        display: flex;
+        flex-direction: column;
+        gap: 10px 10px;
+    }
+    .destination-images{
+        width: 100%;;
+    }
+    
+    
+    .reason{
+        display: flex;
+        flex-direction: column;
         flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
     }
-
-    .image-one-div, .image-two-div, .image-three-div {
+    .reason-text{
+        width: 100%;
+        text-align: center;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+    .center{
+        align-self: center;
+        width: 100%; 
+    }
+    .reason-parent{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .reason-icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .first-flex{
+        display: flex;
+    }
+    .icon-div-deals{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .text-div-deals{
+        text-align: center;
+    }
+    .image-one-div{
+        width: 100%;
+        position: relative; 
+        text-align: left;
         padding: 10px;
+        
     }
 
-    .text-div-one, .text-div-two, .text-div-three {
+
+    .text-div-one{
         width: 100%;
         position: relative;
         left: 0;
         top: 0;
         transform: none;
     }
-
-    .video-div {
-        margin-left: 0;
-        margin-top: 20px;
+    .image-two-div{
+        position: relative; 
+        text-align: left;
+        padding: 10px;
     }
-
-    .video-div video {
+    .text-div-two{
         width: 100%;
-        height: auto;
-        position: static;
-        top: auto;
-        left: auto;
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+    .image-three-div{
+        position: relative; 
+        text-align: left;
+        padding: 10px;
+    }
+    .text-div-three{
+                width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
         transform: none;
     }
 
-    .newsletter {
+    .deals-icons{
+        width: 12px;
+        height: 12px;
+    }
+    
+    .perfect-place{
+        display: flex;
         flex-direction: column;
     }
-
-    .secondary-div {
-        width: 100%;
+       
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: relative;
     }
-
-    .perfect-place-image {
+    .secondary-div{
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
-
-    .footer {
+    .perfect-place-image{
         width: 100%;
-        padding: 10px;
+        height: auto;
     }
-}
+    .form-newsletter{
+        display: flex;
+        column-gap: 25px;
+        width: 80%;
+        padding: 0px;
+        gap: 12px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin-bottom: 20px;
+    }
+    .deals-images{
+        width: 500px;
+    }
+    
+    footer{
+        width: 100%;
+        text-align: center;
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        justify-content: center;
+    }
+    }
+    
